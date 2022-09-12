@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    background: url(../img/header.jpg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header_title_index {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+
+
+.nav-item a {
+    color: #fff;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.footer{
+    position: relative;
+    background: url(../img/section.jpg) no-repeat center top fixed;
+    background-size: cover;
+    color: #fff;
+}
+
